@@ -10,7 +10,7 @@ with my own).
 
 
 ## How to use
-I have added a new LaTeX command:
+I have added a new LaTeX command `\fr`:
 
 ```tex
 \fr{french word}{word's french article}  {english definition}
@@ -18,7 +18,7 @@ I have added a new LaTeX command:
 
 It prints out:
 
-`_word's french article french word_ = english definition
+_word's french article french word_ = english definition
 
 The french word is in italic
 
