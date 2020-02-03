@@ -5,12 +5,16 @@
 %\usepackage{frutigernext}
 %\usepackage[lf,minionint]{MinionPro}
 \usepackage{tikz}
-\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+%\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
 \usepackage[nosf]{kpfonts}
 \usepackage[t1]{sourcesanspro}
 \usepackage{multicol}
 \usepackage{wrapfig}
+
+%%%%%%%%%%%Edit below to adjust print margins
 \usepackage[top=0mm,bottom=-2mm,left=-2mm,right=-2mm]{geometry}
+%%%%%%%%%%%
+
 \usepackage[framemethod=tikz]{mdframed}
 \usepackage{microtype}
 \usepackage{pdfpages}
@@ -18,6 +22,10 @@
 \let\bar\overline
 
 \include{def}
+
+% Addd by GNewton for french
+\newcommand{\fr}[3]{{\em #2 #1} = #3\\}
+%%%%%%%%%%%
 
 \begin{document}
 %\footnotesize

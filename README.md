@@ -1,5 +1,6 @@
 # french-vocab-C-cheatsheet
-Cheatsheet I created for my level C French oral exam. [Link to PDF](https://github.com/gnewton/french-vocab-C-cheatsheet/blob/master/gnfrench.pdf).
+Cheatsheet I created for my level C French oral exam. [Link to PDF](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
+
 
 ##
 I have cloned [tim-st's](https://github.com/tim-st)
@@ -29,6 +30,25 @@ For non-nouns, leave the second brace brackets empty, `{}`, like:
 ```tex
 \fr  {aborder}{}   {to approach}
 ```
+
+##Margins
+NB: When viewing the PDF in a viewer, it looks cut-off at at the margins.
+On my printer it looks ok.
+If text at the margins gets cut-off at the margins, when you print it,
+go to `gnfrench.tex` and edit the margins in the lines below ("-2mm")
+to something more positive, like zero (0):
+```tex
+%%%%%%%%%%%Edit below to adjust print margins
+\usepackage[top=0mm,bottom=-2mm,left=-2mm,right=-2mm]{geometry}
+%%%%%%%%%%%
+```
+edited to zero:
+```tex
+%%%%%%%%%%%Edit below to adjust print margins
+\usepackage[top=0mm,bottom=0mm,left=0mm,right=0mm]{geometry}
+%%%%%%%%%%%
+```
+
 
 Copyright Glen Newton 2020
 

@@ -1,20 +1,5 @@
 \definecolor{myblue}{cmyk}{1,.72,0,.38}
 
-\def\firstcircle{(0,0) circle (1.5cm)}
-\def\secondcircle{(0:2cm) circle (1.5cm)}
-
-\colorlet{circle edge}{myblue}
-\colorlet{circle area}{myblue!5}
-
-\tikzset{filled/.style={fill=circle area, draw=circle edge, thick},
-    outline/.style={draw=circle edge, thick}}
-    
-\pgfdeclarelayer{background}
-\pgfsetlayers{background,main}
-
-\everymath\expandafter{\the\everymath \color{myblue}}
-\everydisplay\expandafter{\the\everydisplay \color{myblue}}
-
 \renewcommand{\baselinestretch}{.99}
 \pagestyle{empty}
 
@@ -159,4 +144,4 @@ Glen Newton pp.\thepage ~ \today
 \makeatother
 \setlength{\parindent}{0pt}
 
-\newcommand{\fr}[3]{{\em #2 #1} = #3\\}
+
