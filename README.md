@@ -1,5 +1,5 @@
 # french-vocab-C-cheatsheet
-Cheatsheet I created for my level C French oral exam
+Cheatsheet I created for my level C French oral exam. [Link to PDF](https://github.com/gnewton/french-vocab-C-cheatsheet/blob/master/gnfrench.pdf).
 
 ##
 I have cloned [tim-st's](https://github.com/tim-st)
