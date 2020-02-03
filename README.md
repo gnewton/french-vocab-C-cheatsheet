@@ -31,11 +31,11 @@ For non-nouns, leave the second brace brackets empty, `{}`, like:
 \fr  {aborder}{}   {to approach}
 ```
 
-##Margins
-NB: When viewing the PDF in a viewer, it looks cut-off at at the margins.
-On my printer it looks ok.
-If text at the margins gets cut-off at the margins, when you print it,
-go to `gnfrench.tex` and edit the margins in the lines below ("-2mm")
+## Margins
+**NB**: When viewing the PDF in a viewer, it may look cut-off at the margins.
+On my printer it prints ok.
+If text at the margins gets cut-off at the margins when you print it,
+edit `gnfrench.tex` in the lines below for the margins ("-2mm")
 to something more positive, like zero (0):
 ```tex
 %%%%%%%%%%%Edit below to adjust print margins
