@@ -8,7 +8,7 @@ I have cloned [tim-st's](https://github.com/tim-st)
 used it almost as-is (except for removing the content and replacing it
 with my own).
 
-
+If you are using texlive, you will haver to install `texlive-fonts-extra`.
 
 ## How to use
 I have added a new LaTeX command `\fr`:
