@@ -20,25 +20,54 @@
 \usepackage{microtype}
 \usepackage{pdfpages}
 
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Overleaf}
+\lhead{Guides and tutorials}
+\rfoot{Page \thepage}
+
 \let\bar\overline
 
 \include{def}
 
 % Addd by GNewton for french
-\newcommand{\fr}[3]{{\em #2 #1} = #3\\}
+\newcommand{\fr}[3]{{\em #2 #1} {{\bf |} #3}\\}
+\newcommand{\frv}[3]{{\em #2#1} {{\bf |} #3}\\}
 %%%%%%%%%%%
 
 \begin{document}
+
+%% \begin{minipage}[t]{\textwidth}
+%%   {\Large French vocabulary}
+%%   \small
+%%   \hfill
+%%   Version: \today
+%%   \hspace{2cm}
+%%   \textcopyright 2020 {Glen Newton}\\
+%%                  {\tt \url{https://github.com/gnewton/french-vocab-C-cheatsheet}
+%%                    \hfill
+%%                    License:\href{https://creativecommons.org/licenses/by-nc/4.0/}{CC Attribution-NonCommercial 4.0 International}
+%%                  }
+%% \end{minipage}
+
+{
+\Large French vocabulary\hfill \small Version: \today\hfill License: \href{https://creativecommons.org/licenses/by-nc/4.0/}{\tt CC Attribution-NonCommercial 4.0 International}}\\
+\textcopyright 2020 {Glen Newton}\hfill {\tt \url{https://github.com/gnewton/french-vocab-C-cheatsheet}}
+
+
+    
 \footnotesize
 %\small
-\begin{multicols*}{5}
+\begin{multicols*}{4}
+
 \input{mot_liens}
 \input{general}
 \input{nouns}
 \input{verbs}
 \input{qualities}
 \input{subjonctif}
-
 
 \end{multicols*}
 \end{document}
