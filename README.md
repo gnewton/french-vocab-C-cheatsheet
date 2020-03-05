@@ -49,6 +49,10 @@ edited to zero:
 %%%%%%%%%%%
 ```
 
+# Caveat emptor
+**NB:** There will likely be errors both in spelling and in meaning in this document, as much as I have tried hard to verify this information.
+I am not a native french speaker, and this has not been validated by a native french speaker or expert in the french language.
+
 
 Copyright Glen Newton 2020
 
