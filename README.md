@@ -1,5 +1,6 @@
-# french-vocab-C-cheatsheet
-Cheatsheet I created for my level C French oral exam. [Link to PDF](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
+# French Vocababulary: C--level Cheatsheet
+Cheatsheet I created for my \href{https://www.canada.ca/en/public-service-commission/services/second-language-testing-public-service/second-language-evaluation-oral.html}{level C French oral exam}.
+[Link to PDF od document](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
 
 
 ##
