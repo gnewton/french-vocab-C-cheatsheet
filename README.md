@@ -2,7 +2,7 @@
 Cheatsheet I created for my 
 [level C French oral exam](https://www.canada.ca/en/public-service-commission/services/second-language-testing-public-service/second-language-evaluation-oral.html)
 
-[Link to PDF of document](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
+[Link to PDF of document](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf?raw=true).
 
 
 ##
