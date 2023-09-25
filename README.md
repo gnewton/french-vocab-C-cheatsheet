@@ -1,6 +1,6 @@
 # French Vocababulary: C--level Cheatsheet
-Cheatsheet I created for my \href{https://www.canada.ca/en/public-service-commission/services/second-language-testing-public-service/second-language-evaluation-oral.html}{level C French oral exam}.
-[Link to PDF od document](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
+Cheatsheet I created for my [https://www.canada.ca/en/public-service-commission/services/second-language-testing-public-service/second-language-evaluation-oral.html][level] C French oral exam}.
+[Link to PDF of document](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
 
 
 ##
@@ -9,7 +9,7 @@ I have cloned [tim-st's](https://github.com/tim-st)
 used it almost as-is (except for removing the content and replacing it
 with my own).
 
-If you are using texlive, you will haver to install `texlive-fonts-extra`.
+If you are using texlive, you will have to install `texlive-fonts-extra`.
 
 ## How to use
 I have added a new LaTeX command `\fr`:
