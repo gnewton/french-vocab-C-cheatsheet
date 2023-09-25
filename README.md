@@ -1,5 +1,5 @@
 # French Vocababulary: C--level Cheatsheet
-Cheatsheet I created for my [https://www.canada.ca/en/public-service-commission/services/second-language-testing-public-service/second-language-evaluation-oral.html][level] C French oral exam}.
+Cheatsheet I created for my [https://www.canada.ca/en/public-service-commission/services/second-language-testing-public-service/second-language-evaluation-oral.html](level C French oral exam).
 [Link to PDF of document](https://github.com/gnewton/french-vocab-C-cheatsheet/raw/master/gnfrench.pdf).
 
 
