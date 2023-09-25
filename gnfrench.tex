@@ -1,11 +1,10 @@
 \documentclass[10pt,landscape,letter]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-%\usepackage[LY1,T1]{fontenc}
-%\usepackage{frutigernext}
-%\usepackage[lf,minionint]{MinionPro}
+\usepackage[LY1,T1]{fontenc}
+
 \usepackage{tikz}
-%\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
+\usetikzlibrary{shapes,positioning,arrows,fit,calc,graphs,graphs.standard}
 \usepackage[nosf]{kpfonts}
 \usepackage[t1]{sourcesanspro}
 \usepackage{multicol}
@@ -30,38 +29,23 @@
 
 \let\bar\overline
 
-\include{def}
-
-% Addd by GNewton for french
+%% % Add by GNewton for french
 \newcommand{\fr}[3]{{\em #2 #1} {{\bf |} #3}\\}
+%% %\newcommand{\fr}[3]{}
+
 \newcommand{\frv}[3]{{\em #2#1} {{\bf |} #3}\\}
-%%%%%%%%%%%
-
+%% %  \newcommand{\frv}[3]{}
+%% %%%%%%%%%%%
+\input{def}
+  
 \begin{document}
-
-%% \begin{minipage}[t]{\textwidth}
-%%   {\Large French vocabulary}
-%%   \small
-%%   \hfill
-%%   Version: \today
-%%   \hspace{2cm}
-%%   \textcopyright 2020 {Glen Newton}\\
-%%                  {\tt \url{https://github.com/gnewton/french-vocab-C-cheatsheet}
-%%                    \hfill
-%%                    License:\href{https://creativecommons.org/licenses/by-nc/4.0/}{CC Attribution-NonCommercial 4.0 International}
-%%                  }
-%% \end{minipage}
-
 {
 \Large French vocabulary\hfill \small Version: \today\hfill License: \href{https://creativecommons.org/licenses/by-nc/4.0/}{\tt CC Attribution-NonCommercial 4.0 International}}\\
 \textcopyright 2020 {Glen Newton}\hfill {\tt \url{https://github.com/gnewton/french-vocab-C-cheatsheet}}
-
-
     
 \footnotesize
 %\small
 \begin{multicols*}{4}
-
 \input{mot_liens}
 \input{general}
 \input{nouns}
@@ -69,5 +53,10 @@
 \input{adjectives}
 \input{subjonctif}
 
+  \section{Conjunctions}
+  Hello
+
+  How are you?
+  
 \end{multicols*}
 \end{document}
